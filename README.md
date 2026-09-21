@@ -67,5 +67,23 @@ Previous transactions: 5
 Fraud Prediction: NO
 Fraud Probability: 0.0832
 
+🛠️ Tech Stack
+Python
+
+Pandas / NumPy
+
+Scikit-learn
+
+Imbalanced-learn (SMOTE)
+
+Random Forest Classifier
+
+📌 Notes
+Dataset used: fraud_transactions_200.csv (sample dataset).
+
+This project is for educational purposes and demonstrates fraud detection concepts.
+
+For production use, larger datasets and advanced techniques (e.g., XGBoost, deep learning, feature engineering) are recommended.
+
 
 
