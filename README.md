@@ -43,5 +43,29 @@ This project demonstrates a **machine learning pipeline** for detecting fraudule
 - Displays fraud probability score.
 
 ---
+Model Evaluation:
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95        50
+           1       0.94      0.93      0.94        40
+
+    accuracy                           0.95        90
+   macro avg       0.95      0.95      0.95        90
+weighted avg       0.95      0.95      0.95        90
+
+
+Enter New Transaction Details:
+Amount: 1200
+Transaction time (0-86400): 45000
+Location (India/USA/UK/Germany/UAE): USA
+Device (mobile/desktop/tablet): mobile
+Merchant (electronics/fashion/grocery/travel): electronics
+Previous transactions: 5
+
+🔍 Result:
+Fraud Prediction: NO
+Fraud Probability: 0.0832
+
 
 
